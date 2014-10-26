@@ -14,6 +14,7 @@
 		C6A3440F19FCFBB200FDE064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A3440E19FCFBB200FDE064 /* Images.xcassets */; };
 		C6A3441219FCFBB200FDE064 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6A3441019FCFBB200FDE064 /* LaunchScreen.xib */; };
 		C6A3441E19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A3441D19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m */; };
+		C6A3442819FCFC1F00FDE064 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A3442719FCFC1F00FDE064 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C6A3441719FCFBB300FDE064 /* iBeacon-receiver-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iBeacon-receiver-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A3441C19FCFBB300FDE064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A3441D19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeacon_receiver_sampleTests.m; sourceTree = "<group>"; };
+		C6A3442719FCFC1F00FDE064 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A3442819FCFC1F00FDE064 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		C6A343F519FCFBB200FDE064 = {
 			isa = PBXGroup;
 			children = (
+				C6A3442719FCFC1F00FDE064 /* CoreLocation.framework */,
 				C6A3440019FCFBB200FDE064 /* iBeacon-receiver-sample */,
 				C6A3441A19FCFBB300FDE064 /* iBeacon-receiver-sampleTests */,
 				C6A343FF19FCFBB200FDE064 /* Products */,
