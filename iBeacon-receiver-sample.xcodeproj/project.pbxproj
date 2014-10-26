@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A3440419FCFBB200FDE064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A3440319FCFBB200FDE064 /* main.m */; };
+		C6A3440719FCFBB200FDE064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A3440619FCFBB200FDE064 /* AppDelegate.m */; };
+		C6A3440A19FCFBB200FDE064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A3440919FCFBB200FDE064 /* ViewController.m */; };
+		C6A3440D19FCFBB200FDE064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A3440B19FCFBB200FDE064 /* Main.storyboard */; };
+		C6A3440F19FCFBB200FDE064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A3440E19FCFBB200FDE064 /* Images.xcassets */; };
+		C6A3441219FCFBB200FDE064 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6A3441019FCFBB200FDE064 /* LaunchScreen.xib */; };
+		C6A3441E19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A3441D19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A3441819FCFBB300FDE064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A343F619FCFBB200FDE064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A343FD19FCFBB200FDE064;
+			remoteInfo = "iBeacon-receiver-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A343FE19FCFBB200FDE064 /* iBeacon-receiver-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBeacon-receiver-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A3440219FCFBB200FDE064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A3440319FCFBB200FDE064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6A3440519FCFBB200FDE064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6A3440619FCFBB200FDE064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6A3440819FCFBB200FDE064 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6A3440919FCFBB200FDE064 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6A3440C19FCFBB200FDE064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6A3440E19FCFBB200FDE064 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6A3441119FCFBB200FDE064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C6A3441719FCFBB300FDE064 /* iBeacon-receiver-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iBeacon-receiver-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A3441C19FCFBB300FDE064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A3441D19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeacon_receiver_sampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A343FB19FCFBB200FDE064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3441419FCFBB300FDE064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A343F519FCFBB200FDE064 = {
+			isa = PBXGroup;
+			children = (
+				C6A3440019FCFBB200FDE064 /* iBeacon-receiver-sample */,
+				C6A3441A19FCFBB300FDE064 /* iBeacon-receiver-sampleTests */,
+				C6A343FF19FCFBB200FDE064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A343FF19FCFBB200FDE064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A343FE19FCFBB200FDE064 /* iBeacon-receiver-sample.app */,
+				C6A3441719FCFBB300FDE064 /* iBeacon-receiver-sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A3440019FCFBB200FDE064 /* iBeacon-receiver-sample */ = {
+			isa = PBXGroup;
+			children = (
+				C6A3440519FCFBB200FDE064 /* AppDelegate.h */,
+				C6A3440619FCFBB200FDE064 /* AppDelegate.m */,
+				C6A3440819FCFBB200FDE064 /* ViewController.h */,
+				C6A3440919FCFBB200FDE064 /* ViewController.m */,
+				C6A3440B19FCFBB200FDE064 /* Main.storyboard */,
+				C6A3440E19FCFBB200FDE064 /* Images.xcassets */,
+				C6A3441019FCFBB200FDE064 /* LaunchScreen.xib */,
+				C6A3440119FCFBB200FDE064 /* Supporting Files */,
+			);
+			path = "iBeacon-receiver-sample";
+			sourceTree = "<group>";
+		};
+		C6A3440119FCFBB200FDE064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A3440219FCFBB200FDE064 /* Info.plist */,
+				C6A3440319FCFBB200FDE064 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A3441A19FCFBB300FDE064 /* iBeacon-receiver-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A3441D19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m */,
+				C6A3441B19FCFBB300FDE064 /* Supporting Files */,
+			);
+			path = "iBeacon-receiver-sampleTests";
+			sourceTree = "<group>";
+		};
+		C6A3441B19FCFBB300FDE064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A3441C19FCFBB300FDE064 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A343FD19FCFBB200FDE064 /* iBeacon-receiver-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A3442119FCFBB300FDE064 /* Build configuration list for PBXNativeTarget "iBeacon-receiver-sample" */;
+			buildPhases = (
+				C6A343FA19FCFBB200FDE064 /* Sources */,
+				C6A343FB19FCFBB200FDE064 /* Frameworks */,
+				C6A343FC19FCFBB200FDE064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iBeacon-receiver-sample";
+			productName = "iBeacon-receiver-sample";
+			productReference = C6A343FE19FCFBB200FDE064 /* iBeacon-receiver-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A3441619FCFBB300FDE064 /* iBeacon-receiver-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A3442419FCFBB300FDE064 /* Build configuration list for PBXNativeTarget "iBeacon-receiver-sampleTests" */;
+			buildPhases = (
+				C6A3441319FCFBB300FDE064 /* Sources */,
+				C6A3441419FCFBB300FDE064 /* Frameworks */,
+				C6A3441519FCFBB300FDE064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A3441919FCFBB300FDE064 /* PBXTargetDependency */,
+			);
+			name = "iBeacon-receiver-sampleTests";
+			productName = "iBeacon-receiver-sampleTests";
+			productReference = C6A3441719FCFBB300FDE064 /* iBeacon-receiver-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A343F619FCFBB200FDE064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = shoya140;
+				TargetAttributes = {
+					C6A343FD19FCFBB200FDE064 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C6A3441619FCFBB300FDE064 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C6A343FD19FCFBB200FDE064;
+					};
+				};
+			};
+			buildConfigurationList = C6A343F919FCFBB200FDE064 /* Build configuration list for PBXProject "iBeacon-receiver-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6A343F519FCFBB200FDE064;
+			productRefGroup = C6A343FF19FCFBB200FDE064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A343FD19FCFBB200FDE064 /* iBeacon-receiver-sample */,
+				C6A3441619FCFBB300FDE064 /* iBeacon-receiver-sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A343FC19FCFBB200FDE064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3440D19FCFBB200FDE064 /* Main.storyboard in Resources */,
+				C6A3441219FCFBB200FDE064 /* LaunchScreen.xib in Resources */,
+				C6A3440F19FCFBB200FDE064 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3441519FCFBB300FDE064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A343FA19FCFBB200FDE064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3440A19FCFBB200FDE064 /* ViewController.m in Sources */,
+				C6A3440719FCFBB200FDE064 /* AppDelegate.m in Sources */,
+				C6A3440419FCFBB200FDE064 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A3441319FCFBB300FDE064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3441E19FCFBB300FDE064 /* iBeacon_receiver_sampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A3441919FCFBB300FDE064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A343FD19FCFBB200FDE064 /* iBeacon-receiver-sample */;
+			targetProxy = C6A3441819FCFBB300FDE064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6A3440B19FCFBB200FDE064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A3440C19FCFBB200FDE064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6A3441019FCFBB200FDE064 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A3441119FCFBB200FDE064 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A3441F19FCFBB300FDE064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6A3442019FCFBB300FDE064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6A3442219FCFBB300FDE064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iBeacon-receiver-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6A3442319FCFBB300FDE064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iBeacon-receiver-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6A3442519FCFBB300FDE064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iBeacon-receiver-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeacon-receiver-sample.app/iBeacon-receiver-sample";
+			};
+			name = Debug;
+		};
+		C6A3442619FCFBB300FDE064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iBeacon-receiver-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeacon-receiver-sample.app/iBeacon-receiver-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A343F919FCFBB200FDE064 /* Build configuration list for PBXProject "iBeacon-receiver-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A3441F19FCFBB300FDE064 /* Debug */,
+				C6A3442019FCFBB300FDE064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A3442119FCFBB300FDE064 /* Build configuration list for PBXNativeTarget "iBeacon-receiver-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A3442219FCFBB300FDE064 /* Debug */,
+				C6A3442319FCFBB300FDE064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A3442419FCFBB300FDE064 /* Build configuration list for PBXNativeTarget "iBeacon-receiver-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A3442519FCFBB300FDE064 /* Debug */,
+				C6A3442619FCFBB300FDE064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A343F619FCFBB200FDE064 /* Project object */;
+}
